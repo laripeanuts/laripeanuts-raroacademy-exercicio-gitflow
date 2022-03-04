@@ -13,7 +13,7 @@ export const fromPairs = (args: KeyAndValue[]): Record<string, unknown> => {
   args.forEach((chaveValor) => {
     let [chave, valor] = chaveValor;
     objeto[chave] = valor;
-  })
+  });
 
   return objeto;
 };
