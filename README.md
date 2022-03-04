@@ -5,11 +5,10 @@
 Implementar as seguintes funções:
 
 <details open>
-<details >
   <summary>Funções</summary>
   <li>chunk.ts</li>
   <li>compact.ts</li>
-  <li>chunk.ts</li>
+  <li>fila.ts</li>
   <li>fromPairs.ts</li>
   <li>uniq.ts</li>
 </details>
