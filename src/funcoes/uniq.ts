@@ -8,6 +8,7 @@
  * @returns somente os itens definidos.
  */
 
+export const uniq = <T>(args: T[]): T[] => {
   let resultado = args.sort().reduce((inicio, atual) => {
     if (inicio.length === 0 || inicio[inicio.length - 1] !== atual) {
      inicio.push(atual);
@@ -17,5 +18,4 @@
   }, []);
  
   return resultado;
-};
-
+}
